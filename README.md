@@ -34,8 +34,6 @@ easy-intermediate programming questions taken from ChatGPT
 
 15. Write a function in JavaScript that takes a string as input and returns the number of vowels in the string. For the purposes of this problem, consider the vowels to be "a", "e", "i", "o", and "u", regardless of case. For example, if the input string is "Hello, World!", the function should return 3.
 
-16. Write a function in JavaScript that takes a string as input and returns a new string where each character is replaced with its corresponding ASCII code. For example, if the input string is "hello", the function should return "104 101 108 108 111".
+16. Write a function in JavaScript that takes an array of objects as input, where each object represents a book with a title and an author. The function should return an array of authors, where each author appears only once in the array, in alphabetical order. For example, if the input array is [{title: "To Kill a Mockingbird", author: "Harper Lee"}, {title: "1984", author: "George Orwell"}, {title: "Pride and Prejudice", author: "Jane Austen"}, {title: "To Kill a Mockingbird", author: "Harper Lee"}], the function should return ["George Orwell", "Harper Lee", "Jane Austen"].
 
-17. Write a function in JavaScript that takes an array of objects as input, where each object represents a book with a title and an author. The function should return an array of authors, where each author appears only once in the array, in alphabetical order. For example, if the input array is [{title: "To Kill a Mockingbird", author: "Harper Lee"}, {title: "1984", author: "George Orwell"}, {title: "Pride and Prejudice", author: "Jane Austen"}, {title: "To Kill a Mockingbird", author: "Harper Lee"}], the function should return ["George Orwell", "Harper Lee", "Jane Austen"].
-
-18. Write a program in JavaScript that prints out the numbers from 1 to 100, replacing multiples of 3 with "Fizz", multiples of 5 with "Buzz", and multiples of both 3 and 5 with "FizzBuzz".
+17. Write a program in JavaScript that prints out the numbers from 1 to 100, replacing multiples of 3 with "Fizz", multiples of 5 with "Buzz", and multiples of both 3 and 5 with "FizzBuzz".
