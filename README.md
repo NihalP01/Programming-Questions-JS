@@ -37,3 +37,5 @@ easy-intermediate programming questions taken from ChatGPT
 16. Write a function in JavaScript that takes an array of objects as input, where each object represents a book with a title and an author. The function should return an array of authors, where each author appears only once in the array, in alphabetical order. For example, if the input array is [{title: "To Kill a Mockingbird", author: "Harper Lee"}, {title: "1984", author: "George Orwell"}, {title: "Pride and Prejudice", author: "Jane Austen"}, {title: "To Kill a Mockingbird", author: "Harper Lee"}], the function should return ["George Orwell", "Harper Lee", "Jane Austen"].
 
 17. Write a program in JavaScript that prints out the numbers from 1 to 100, replacing multiples of 3 with "Fizz", multiples of 5 with "Buzz", and multiples of both 3 and 5 with "FizzBuzz".
+
+18. Write a program in JavaScript that finds the first non-repeating character in a string and returns it. For example, given the string "hello", the program should return "h". If there are no non-repeating characters, the program should return null.
