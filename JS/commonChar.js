@@ -12,7 +12,7 @@ function CommonChar(str) {
       count[char] = 1;
     }
   }
-
+  
   return count;
 }
 

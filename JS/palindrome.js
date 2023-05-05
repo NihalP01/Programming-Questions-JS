@@ -2,16 +2,13 @@
 
 function palindrome(str) {
   const newStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
-  let revStr = '';
-  for (let i = newStr.length - 1; i >= 0; i--) {
-    revStr += newStr[i];
+  for (let i = 0; i < Math.floor(newStr.length / 2); i++) {
+    if (newStr[i] !== newStr[newStr.length - 1 - i]) {
+      return false;
+    }
   }
-  if (newStr === revStr) {
-    return true;
-  } else {
-    return false;
-  }
+  return true;
 }
 
-const str = 'A man, a plan, a canal Panama';
+const str = 'A man, a plan, a canal: Panama';
 console.log(palindrome(str));
